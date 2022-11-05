@@ -4,47 +4,44 @@ import requests
 import shutil
 
 
-class ChapterScraper():
-    def __init__(self, title='mbx12-dangerous-convenience-store') -> None:
-        self.title = title
-        pass
+class ChapterScraper:
 
-    def getChapters(self):
+    def findChapters(self, title):
         '''
         gonna say right now some of titles in the url are acutally 
         austitic like scott, probably be a problem later
         '''
-
+        chapterDict = {}
         # load the page into html_text
-        html_text = requests.get(f"https://mangabuddy.com/{self.title}")
+        html_text = requests.get(f"https://mangabuddy.com/{title}")
 
         # parse the text using the lxml parser
         soup = BeautifulSoup(html_text.text, 'lxml')
-        # print(soup)
 
         # Find chapters
-
         for ultag in soup.find_all('ul', {'class': 'chapter-list'}):
             for litag in ultag.find_all('li'):
-                print(litag.get('id'))
-
+                titleTag = litag.find('a').get('title')
+                link = litag.find('a').get('href')
+                chapterDict[titleTag] = link
         '''
-        You would think this solution is faster but for some fucking
-        its a lot slower so fuck you
-        
-        ultag = soup.find('ul', {'class': 'chapter-list'})
-        for litag in ultag.find_all('li'):
-            print(litag.get('id'))
+        YES I KNOW THAT 2 FOR LOOPS IS REALLY STUPID BUT FOR SOME REASON 
+        DOING IT THIS WAY IS FASTER, WHY? FUCK YOU
         '''
 
+        self.chapterDict = chapterDict
 
-...
+    def getNames(self):  # Returns ALL names
+        return list(self.chapterDict.keys())
 
-# [imgAlts.append(alt.attrs['alt']) for alt in images]
-
-# print(imgAlts)
+    def getLink(self, name):  # returns link associated to name
+        return self.chapterDict[name]
 
 
 if __name__ == "__main__":
-    ChapterScraper = ChapterScraper()
-    ChapterScraper.getChapters()
+    cs = ChapterScraper()
+    cs.findChapters(title='mbx12-dangerous-convenience-store')
+    names = cs.getNames()
+    link = cs.getLink(names[1])
+    print(names[1])
+    print(link)
