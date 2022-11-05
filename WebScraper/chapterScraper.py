@@ -21,6 +21,8 @@ def findChapters(title):
         for litag in ultag.find_all('li'):
             titleTag = litag.find('a').get('title')
             link = litag.find('a').get('href')
+            if 'https' not in link:
+                link = "https://mangabuddy.com"+link  # honestly might fuck shit later
             chapterDict[titleTag] = link
     '''
     YES I KNOW THAT 2 FOR LOOPS IS REALLY STUPID BUT FOR SOME REASON 
@@ -30,4 +32,5 @@ def findChapters(title):
 
 
 if __name__ == "__main__":
-    findChapters(title='mbx12-dangerous-convenience-store')
+    chapterDict = findChapters(title='mbx12-dangerous-convenience-store')
+    print(chapterDict)
