@@ -18,11 +18,12 @@ class webScraper():
 
 
         # Find image
-        images = soup.findAll('img')
-        firstImage = images[2]
+        imageDiv = soup.find('div', id='chapter-images')
+        
+        images = imageDiv.find_all('img')
         imgAlts = []
 
-        [imgAlts.append(alt.attrs['alt']) for alt in images]
+        [imgAlts.append(alt.attrs['src']) for alt in images]
 
         print(imgAlts)
         """ urlBase = "https:"
