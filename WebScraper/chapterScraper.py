@@ -2,17 +2,14 @@ from bs4 import BeautifulSoup
 import requests
 
 
-def findChapters(title):
+def findChapters(linkOpen):
     '''
-    Heres the run down for whoever uses this. Put title into 
-    function (from url), function returns dictionary of {ChpTitle: Url}
-
-    gonna say right now some of titles in the url are acutally 
-    austitic like scott, probably be a problem later
+    Heres the run down for whoever uses this. Put link into, 
+    function returns dictionary of {ChpTitle: Url}
     '''
     chapterDict = {}
     # load the page into html_text
-    html_text = requests.get(f"https://mangabuddy.com/{title}")
+    html_text = requests.get(linkOpen)
 
     # parse the text using the lxml parser
     soup = BeautifulSoup(html_text.text, 'lxml')
@@ -23,7 +20,7 @@ def findChapters(title):
             link = litag.find('a').get('href')
             if 'https' not in link:
                 link = "https://mangabuddy.com"+link  # honestly might fuck shit later
-            chapterDict[titleTag] = link
+            chapterDict[titleTag[titleTag.find('Chapter'):]] = link
     '''
     YES I KNOW THAT 2 FOR LOOPS IS REALLY STUPID BUT FOR SOME REASON 
     DOING IT THIS WAY IS FASTER, WHY? FUCK YOU
@@ -32,5 +29,6 @@ def findChapters(title):
 
 
 if __name__ == "__main__":
-    chapterDict = findChapters(title='mbx12-dangerous-convenience-store')
+    chapterDict = findChapters(
+        "https://mangabuddy.com/mbx13-chainsaw-man")
     print(chapterDict)
