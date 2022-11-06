@@ -2,6 +2,11 @@ from PIL import Image
 import os
 import test
 
+'''
+basically call processImg() and it will take all the images from test.py and 
+combine them into one image called "img.png"
+'''
+
 
 class Cropper:
 
