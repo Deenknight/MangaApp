@@ -46,7 +46,7 @@ def removePopups(driver: webdriver.Firefox, width, height):
     # remove the cookies tab at the bottom
     driver.execute_script("acceptCookies()")
 
-    # remove the google thingy that took me 3 hours to implement
+    # remove the google thingy that took me 3+ hours to implement
     body = driver.find_element(By.XPATH, "/html/body")
     action = ActionChains(driver)
     x_offset = int(body.size['width']/2)

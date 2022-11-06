@@ -36,7 +36,7 @@ class Cropper:
         return image.crop((start, 5, start+width, height-100))
 
 
-def processImg(temp_path, dir_path, start, width):  # crop all images and then combine them at the end
+def processImg(temp_path, dir_path, start, width, chapter_name):  # crop all images and then combine them at the end
     crop = Cropper(temp_path)
     image = []
     img2 = None
@@ -58,7 +58,7 @@ def processImg(temp_path, dir_path, start, width):  # crop all images and then c
             img1 = dst
 
     dst.save(
-        f'{dir_path}\\img.png')
+        f'{dir_path}\\{chapter_name}.png')
 
 
 def preClean(folder):
