@@ -59,6 +59,7 @@ def save_screenshot(driver: webdriver.Firefox, path: str = '/tmp/screenshot.png'
 
     multiplier = 0
     scrollHeight = 0
+    delay = 0.5
 
     #TODO fix dogshit code:
     while True:
@@ -68,15 +69,19 @@ def save_screenshot(driver: webdriver.Firefox, path: str = '/tmp/screenshot.png'
         # if the next scroll will go over, do some more work
         # not sure if necessary, could just change the loop condition
         if scrollHeight+scrollIncrement > maxHeight:
-             
+            
+            driver.set_window_size(required_width, maxHeight-scrollHeight)
             driver.execute_script(f"window.scrollTo(0, {scrollHeight})")
+            time.sleep(delay)
             driver.save_screenshot(f"{path}{multiplier}.png")
             break
         
         driver.execute_script(f"window.scrollTo(0, {scrollHeight})")
+        time.sleep(delay)
         driver.save_screenshot(f"{path}{multiplier}.png")
+        
         multiplier += 1
-        time.sleep(5)
+        
     
     # reset browser size
     driver.set_window_size(original_size['width'], original_size['height'])
