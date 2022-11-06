@@ -1,7 +1,8 @@
 from PIL import Image
 import os
-import test
-
+import pageDownloader as pgD
+import tempFileCreator as tfc
+import shutil
 '''
 basically call processImg() and it will take all the images from test.py and 
 combine them into one image called "img.png"
@@ -9,43 +10,47 @@ combine them into one image called "img.png"
 
 
 class Cropper:
+    def __init__(self, path):
+        self.path = path
 
-    def cropSides(self, inImage):  # general purpose, for inbetween imgs
-        path = rf'C:\Users\Julian\repos\hackED beta\project\MangaApp\WebScraper\manga\{inImage}'
-        image = Image.open(path)
+    def setPath(self, path):
+        self.path = path
+
+    def cropSides(self, inImage, start, width):  # general purpose, for inbetween imgs
+        
+        image = Image.open(f"{self.path}\\{inImage}")
         height = image.height
-        return image.crop((170, 0, 1069, height))
+        return image.crop((start, 5, start+width, height))
         # newImage.save(path)
 
-    def cropTop(self, inImage):  # for first img
-        path = rf'C:\Users\Julian\repos\hackED beta\project\MangaApp\WebScraper\manga\{inImage}'
-        image = Image.open(path)
+    def cropTop(self, inImage, start, width):  # for first img
+        
+        image = Image.open(f"{self.path}\\{inImage}")
         height = image.height
-        return image.crop((170, 453, 1069, height))
+        return image.crop((start, 453, start+width, height))
 
-    def cropBottom(self, inImage):  # for last img
-        path = rf'C:\Users\Julian\repos\hackED beta\project\MangaApp\WebScraper\manga\{inImage}'
-        image = Image.open(path)
+    def cropBottom(self, inImage, start, width):  # for last img
+        
+        image = Image.open(f"{self.path}\\{inImage}")
         height = image.height
-        return image.crop((170, 0, 1069, height))
+        return image.crop((start, 5, start+width, height-100))
 
 
-def processImg():  # crop all images and then combine them at the end
-    crop = Cropper()
-    dir_path = r'C:\Users\Julian\repos\hackED beta\project\MangaApp\WebScraper\manga'
+def processImg(temp_path, dir_path, start, width):  # crop all images and then combine them at the end
+    crop = Cropper(temp_path)
     image = []
     img2 = None
-    for path in os.listdir(dir_path):
-        if os.path.isfile(os.path.join(dir_path, path)):
+    for path in os.listdir(temp_path):
+        if os.path.isfile(os.path.join(temp_path, path)):
             image.append(path)
 
     for i in image:
         if i == image[0]:
-            img1 = crop.cropTop(i)
+            img1 = crop.cropTop(i, start, width)
         elif i == image[-1]:
-            img2 = crop.cropBottom(i)
+            img2 = crop.cropBottom(i, start, width)
         else:
-            img2 = crop.cropSides(i)
+            img2 = crop.cropSides(i, start, width)
         if img2 != None:
             dst = Image.new('RGB', (img1.width, img1.height + img2.height))
             dst.paste(img1, (0, 0))
@@ -53,13 +58,11 @@ def processImg():  # crop all images and then combine them at the end
             img1 = dst
 
     dst.save(
-        r'C:\Users\Julian\repos\hackED beta\project\MangaApp\WebScraper\manga\img.png')
+        f'{dir_path}\\img.png')
 
 
-def preClean():
-    import os
-    import shutil
-    folder = r'C:\Users\Julian\repos\hackED beta\project\MangaApp\WebScraper\manga'
+def preClean(folder):
+
     for filename in os.listdir(folder):
         file_path = os.path.join(folder, filename)
         try:
@@ -74,8 +77,16 @@ def preClean():
 
 
 if __name__ == "__main__":
-    preClean()
-    url = "https://mangabuddy.com/mbx13-chainsaw-man/chapter-108-5"
-    test.openUrl(url)
-    processImg()
+    path = os.path.dirname(__file__)
+
+    temp_path = tfc.createFolder()
+    dir_path = os.path.join(path, "manga")
+
+    preClean(dir_path)
+    url = "https://mangabuddy.com/the-eminence-in-shadow/chapter-46"
+    start, width = pgD.openUrl(url, temp_path, True)
+
+    processImg(temp_path, dir_path, start, width)
+
+    tfc.delFolder()
     pass
