@@ -1,0 +1,567 @@
+1667711627905	geckodriver	INFO	Listening on 127.0.0.1:62714
+1667713515627	geckodriver	INFO	Listening on 127.0.0.1:57898
+1667713518682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileIDpNrB"
+1667713518951	Marionette	INFO	Marionette enabled
+1667713518955	Marionette	INFO	Listening on port 57913
+WebDriver BiDi listening on ws://127.0.0.1:57899
+Read port: 57913
+1667713519146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileIDpNrB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57899/devtools/browser/aa18c8b7-6fb7-456e-8913-e0c66463c68e
+Port.onMessage event fired while context is inactive.
+1667713561219	Marionette	INFO	Stopped listening on port 57913
+1667714197348	geckodriver	INFO	Listening on 127.0.0.1:51838
+1667714200425	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileiwUEu7"
+1667714200699	Marionette	INFO	Marionette enabled
+1667714200703	Marionette	INFO	Listening on port 51851
+Read port: 51851
+WebDriver BiDi listening on ws://127.0.0.1:51839
+1667714200807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileiwUEu7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51839/devtools/browser/9aed911c-e963-46ff-a11b-2faf4259b922
+Port.onMessage event fired while context is inactive.
+1667714211628	Marionette	INFO	Stopped listening on port 51851
+1667714230875	geckodriver	INFO	Listening on 127.0.0.1:52046
+1667714233930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileyW5732"
+1667714234198	Marionette	INFO	Marionette enabled
+1667714234202	Marionette	INFO	Listening on port 52059
+WebDriver BiDi listening on ws://127.0.0.1:52047
+Read port: 52059
+1667714234362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileyW5732\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52047/devtools/browser/f052b628-5c44-4b50-b026-6e7f095b79dd
+Port.onMessage event fired while context is inactive.
+1667714243844	Marionette	INFO	Stopped listening on port 52059
+1667715160655	geckodriver	INFO	Listening on 127.0.0.1:53206
+1667715163719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilegcQzFZ"
+1667715163971	Marionette	INFO	Marionette enabled
+1667715163975	Marionette	INFO	Listening on port 53220
+WebDriver BiDi listening on ws://127.0.0.1:53207
+Read port: 53220
+1667715164159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilegcQzFZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53207/devtools/browser/d21836b3-59a2-4156-bff7-e26dcd23df9f
+Port.onMessage event fired while context is inactive.
+1667715175963	Marionette	INFO	Stopped listening on port 53220
+1667715815841	geckodriver	INFO	Listening on 127.0.0.1:52205
+1667715818918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52206" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileZj7yLu"
+1667715819168	Marionette	INFO	Marionette enabled
+1667715819172	Marionette	INFO	Listening on port 52218
+WebDriver BiDi listening on ws://127.0.0.1:52206
+Read port: 52218
+1667715819356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileZj7yLu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52206/devtools/browser/b6005a49-9f32-4c43-aa60-34567e14020e
+Port.onMessage event fired while context is inactive.
+1667715828618	Marionette	INFO	Stopped listening on port 52218
+1667716037445	geckodriver	INFO	Listening on 127.0.0.1:52544
+1667716040526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilegNzpt4"
+1667716040782	Marionette	INFO	Marionette enabled
+1667716040785	Marionette	INFO	Listening on port 52560
+WebDriver BiDi listening on ws://127.0.0.1:52545
+Read port: 52560
+1667716040975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilegNzpt4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52545/devtools/browser/b4a086ec-7b8b-44f0-ae25-676c033da164
+1667716070487	Marionette	INFO	Stopped listening on port 52560
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667716091471	geckodriver	INFO	Listening on 127.0.0.1:52639
+1667716094535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52640" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileF9zzOd"
+1667716094795	Marionette	INFO	Marionette enabled
+1667716094799	Marionette	INFO	Listening on port 52655
+WebDriver BiDi listening on ws://127.0.0.1:52640
+Read port: 52655
+1667716094983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileF9zzOd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52640/devtools/browser/659387a1-a5fd-4c8c-a1de-3df7a7e914b6
+1667716104736	Marionette	INFO	Stopped listening on port 52655
+1667718716685	geckodriver	INFO	Listening on 127.0.0.1:51222
+1667718719749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileL2S4Wd"
+1667718720005	Marionette	INFO	Marionette enabled
+1667718720010	Marionette	INFO	Listening on port 51236
+WebDriver BiDi listening on ws://127.0.0.1:51223
+Read port: 51236
+1667718720193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileL2S4Wd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51223/devtools/browser/f0907b17-842b-4b45-ac40-37d11d3b8ff7
+1667718734773	Marionette	INFO	Stopped listening on port 51236
+1667718754857	geckodriver	INFO	Listening on 127.0.0.1:51480
+1667718757912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileML3qzH"
+1667718758175	Marionette	INFO	Marionette enabled
+1667718758178	Marionette	INFO	Listening on port 51494
+WebDriver BiDi listening on ws://127.0.0.1:51481
+Read port: 51494
+1667718758360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileML3qzH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51481/devtools/browser/5adccc3d-144c-49fc-9556-7a2e58804508
+Port.onMessage event fired while context is inactive.
+1667719398205	geckodriver	INFO	Listening on 127.0.0.1:63278
+1667719401271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilen2i1M2"
+1667719401560	Marionette	INFO	Marionette enabled
+1667719401564	Marionette	INFO	Listening on port 63292
+Read port: 63292
+WebDriver BiDi listening on ws://127.0.0.1:63279
+1667719401656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilen2i1M2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63279/devtools/browser/47004e0d-421d-474e-ac6e-f012f3fef78c
+JavaScript warning: https://m2d.m2.ai/v/pg-221019-88a-nc-d41d8cd98f00b204e9800998ecf8427e.js, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6456 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3508 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667719410961	Marionette	INFO	Stopped listening on port 63292
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667721308540	geckodriver	INFO	Listening on 127.0.0.1:64086
+1667721311597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileNuDSkL"
+1667721311851	Marionette	INFO	Marionette enabled
+1667721311855	Marionette	INFO	Listening on port 64102
+WebDriver BiDi listening on ws://127.0.0.1:64087
+Read port: 64102
+1667721312041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileNuDSkL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64087/devtools/browser/b92e18ad-9f44-4e6b-b774-0cc9a4e61db2
+Port.onMessage event fired while context is inactive.
+1667721358476	geckodriver	INFO	Listening on 127.0.0.1:64312
+1667721361544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64313" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileoJrPhM"
+1667721361793	Marionette	INFO	Marionette enabled
+1667721361797	Marionette	INFO	Listening on port 64327
+WebDriver BiDi listening on ws://127.0.0.1:64313
+Read port: 64327
+1667721361982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileoJrPhM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64313/devtools/browser/f4d5c700-560b-4d61-a595-cb78bcefab67
+Port.onMessage event fired while context is inactive.
+1667721368949	Marionette	INFO	Stopped listening on port 64327
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667721403895	geckodriver	INFO	Listening on 127.0.0.1:64523
+1667721406967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileUTVhWe"
+1667721407217	Marionette	INFO	Marionette enabled
+1667721407221	Marionette	INFO	Listening on port 64539
+WebDriver BiDi listening on ws://127.0.0.1:64524
+Read port: 64539
+1667721407407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileUTVhWe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64524/devtools/browser/b493c787-5cee-4106-902a-4e11dfd4759c
+Port.onMessage event fired while context is inactive.
+1667721414279	Marionette	INFO	Stopped listening on port 64539
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667721467031	geckodriver	INFO	Listening on 127.0.0.1:64755
+1667721470099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileD8Xtwt"
+1667721470348	Marionette	INFO	Marionette enabled
+1667721470351	Marionette	INFO	Listening on port 64769
+WebDriver BiDi listening on ws://127.0.0.1:64756
+Read port: 64769
+1667721470538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileD8Xtwt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64756/devtools/browser/25eaaf13-ba78-4dee-85f2-1ac14872a50f
+1667721474936	Marionette	INFO	Stopped listening on port 64769
+1667722951344	geckodriver	INFO	Listening on 127.0.0.1:62631
+1667722954420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62632" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilea54TW9"
+1667722954685	Marionette	INFO	Marionette enabled
+1667722954689	Marionette	INFO	Listening on port 62646
+WebDriver BiDi listening on ws://127.0.0.1:62632
+Read port: 62646
+1667722954845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilea54TW9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62632/devtools/browser/3941d4f3-e717-47c2-8ece-9219e547965f
+Port.onMessage event fired while context is inactive.
+1667722958913	Marionette	INFO	Stopped listening on port 62646
+1667722967236	geckodriver	INFO	Listening on 127.0.0.1:62770
+1667722970278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilerJ4PW7"
+1667722970548	Marionette	INFO	Marionette enabled
+1667722970552	Marionette	INFO	Listening on port 62786
+WebDriver BiDi listening on ws://127.0.0.1:62771
+Read port: 62786
+1667722970706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilerJ4PW7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62771/devtools/browser/4f214a71-dcbd-43da-a3db-b22001e4dc52
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 698"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:698:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:542:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:445:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:409:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2149:35
+addAllSources@resource://devtools/server/actors/thread.js:1481:14
+watch@resource://devtools/server/actors/resources/sources.js:76:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:44:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 698, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 431: TypeError: channel is null
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 698: Failed to open input source 'moz-extension://5e6c7072-cb27-43c5-a7a7-4dd63b2b4f01/js/vapi.js'
+1667723128254	geckodriver	INFO	Listening on 127.0.0.1:63692
+1667723131322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile3a6Qtv"
+1667723131590	Marionette	INFO	Marionette enabled
+1667723131594	Marionette	INFO	Listening on port 63707
+WebDriver BiDi listening on ws://127.0.0.1:63693
+Read port: 63707
+1667723131758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667723148860	geckodriver	INFO	Listening on 127.0.0.1:63735
+1667723151924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63736" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilePyobDY"
+1667723152179	Marionette	INFO	Marionette enabled
+1667723152182	Marionette	INFO	Listening on port 63752
+WebDriver BiDi listening on ws://127.0.0.1:63736
+Read port: 63752
+1667723152371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilePyobDY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63736/devtools/browser/710d6e6f-34cb-47ff-beca-6115d1cb89f2
+Port.onMessage event fired while context is inactive.
+1667723231434	geckodriver	INFO	Listening on 127.0.0.1:63984
+1667723234484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileMizfWm"
+1667723234732	Marionette	INFO	Marionette enabled
+1667723234736	Marionette	INFO	Listening on port 64000
+WebDriver BiDi listening on ws://127.0.0.1:63985
+Read port: 64000
+1667723234927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileMizfWm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63985/devtools/browser/17dff63f-4217-438d-838a-b8e16d00c0a2
+Port.onMessage event fired while context is inactive.
+1667723244778	Marionette	INFO	Stopped listening on port 64000
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667723837921	geckodriver	INFO	Listening on 127.0.0.1:49225
+1667723840994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilejmBGSv"
+1667723841242	Marionette	INFO	Marionette enabled
+1667723841246	Marionette	INFO	Listening on port 49243
+WebDriver BiDi listening on ws://127.0.0.1:49226
+Read port: 49243
+1667723841437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilejmBGSv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49226/devtools/browser/0487fad9-2529-44f4-a6ac-f07fdb711db0
+Port.onMessage event fired while context is inactive.
+1667723851678	Marionette	INFO	Stopped listening on port 49243
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667724162666	geckodriver	INFO	Listening on 127.0.0.1:49720
+1667724165730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileclzugF"
+1667724165979	Marionette	INFO	Marionette enabled
+1667724165983	Marionette	INFO	Listening on port 49737
+WebDriver BiDi listening on ws://127.0.0.1:49721
+Read port: 49737
+1667724166172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileclzugF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49721/devtools/browser/18f2015b-a174-497b-a153-f1407ea8eeec
+Port.onMessage event fired while context is inactive.
+1667724343333	geckodriver	INFO	Listening on 127.0.0.1:50096
+1667724346390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilesSUain"
+1667724346638	Marionette	INFO	Marionette enabled
+1667724346642	Marionette	INFO	Listening on port 50112
+WebDriver BiDi listening on ws://127.0.0.1:50097
+Read port: 50112
+1667724346836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilesSUain\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50097/devtools/browser/10ce5024-d4d2-4fc6-aa46-40e0a39585cd
+1667724357668	Marionette	INFO	Stopped listening on port 50112
+[Parent 5024, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667724479964	geckodriver	INFO	Listening on 127.0.0.1:50432
+1667724483029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50433" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileQM0N70"
+1667724483281	Marionette	INFO	Marionette enabled
+1667724483285	Marionette	INFO	Listening on port 50447
+WebDriver BiDi listening on ws://127.0.0.1:50433
+Read port: 50447
+1667724483468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileQM0N70\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50433/devtools/browser/175b40e6-2ce5-4d57-b595-59d2a667d3b7
+Port.onMessage event fired while context is inactive.
+1667724490306	Marionette	INFO	Stopped listening on port 50447
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667724530993	geckodriver	INFO	Listening on 127.0.0.1:50650
+1667724534060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50651" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileO1kkuE"
+1667724534308	Marionette	INFO	Marionette enabled
+1667724534312	Marionette	INFO	Listening on port 50665
+WebDriver BiDi listening on ws://127.0.0.1:50651
+Read port: 50665
+1667724534502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileO1kkuE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50651/devtools/browser/43df0e15-5527-4189-bdfc-bb7c4669fe9c
+Port.onMessage event fired while context is inactive.
+1667724542139	Marionette	INFO	Stopped listening on port 50665
+[Parent 15784, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:554
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667724584739	geckodriver	INFO	Listening on 127.0.0.1:50874
+1667724587801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50875" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileNZ1ufS"
+1667724588054	Marionette	INFO	Marionette enabled
+1667724588057	Marionette	INFO	Listening on port 50889
+WebDriver BiDi listening on ws://127.0.0.1:50875
+Read port: 50889
+1667724588242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileNZ1ufS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50875/devtools/browser/2d4b76f5-89b5-435d-b4a2-028e345eccf1
+Port.onMessage event fired while context is inactive.
+1667724597073	Marionette	INFO	Stopped listening on port 50889
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667724893083	geckodriver	INFO	Listening on 127.0.0.1:51329
+1667724896134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilev5wWKP"
+1667724896382	Marionette	INFO	Marionette enabled
+1667724896386	Marionette	INFO	Listening on port 51345
+WebDriver BiDi listening on ws://127.0.0.1:51330
+Read port: 51345
+1667724896572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilev5wWKP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51330/devtools/browser/67734fb0-6faf-4c5b-90b4-58220319a710
+Port.onMessage event fired while context is inactive.
+1667725156318	geckodriver	INFO	Listening on 127.0.0.1:57352
+1667725159362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilewaOg8J"
+1667725159612	Marionette	INFO	Marionette enabled
+1667725159616	Marionette	INFO	Listening on port 57369
+WebDriver BiDi listening on ws://127.0.0.1:57353
+Read port: 57369
+1667725159802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilewaOg8J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57353/devtools/browser/ff1a6625-833e-4bff-a28e-30101b302011
+1667725165499	Marionette	INFO	Stopped listening on port 57369
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667725229121	geckodriver	INFO	Listening on 127.0.0.1:57573
+1667725232173	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57574" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilephMmS2"
+1667725232424	Marionette	INFO	Marionette enabled
+1667725232428	Marionette	INFO	Listening on port 57588
+WebDriver BiDi listening on ws://127.0.0.1:57574
+Read port: 57588
+1667725232616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilephMmS2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57574/devtools/browser/97ab5fc5-534a-4507-92f4-f7cd4e1889d0
+Port.onMessage event fired while context is inactive.
+1667725237534	Marionette	INFO	Stopped listening on port 57588
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667726362242	geckodriver	INFO	Listening on 127.0.0.1:58707
+1667726365285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58708" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileJgNIhF"
+1667726365535	Marionette	INFO	Marionette enabled
+1667726365540	Marionette	INFO	Listening on port 58719
+WebDriver BiDi listening on ws://127.0.0.1:58708
+Read port: 58719
+1667726365734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileJgNIhF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58708/devtools/browser/bb88a861-e61c-4d40-8354-223bf2f5bdbd
+Port.onMessage event fired while context is inactive.
+1667726374609	Marionette	INFO	Stopped listening on port 58719
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667727224825	geckodriver	INFO	Listening on 127.0.0.1:59470
+1667727227884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59471" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileEnHlRf"
+1667727228132	Marionette	INFO	Marionette enabled
+1667727228136	Marionette	INFO	Listening on port 59486
+WebDriver BiDi listening on ws://127.0.0.1:59471
+Read port: 59486
+1667727228326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofileEnHlRf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59471/devtools/browser/1b21b17a-3be7-460d-aedd-86a19bf0761d
+Port.onMessage event fired while context is inactive.
+1667727346588	geckodriver	INFO	Listening on 127.0.0.1:60244
+1667727349660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile0u4DCs"
+1667727349907	Marionette	INFO	Marionette enabled
+1667727349911	Marionette	INFO	Listening on port 60258
+WebDriver BiDi listening on ws://127.0.0.1:60245
+Read port: 60258
+1667727350101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile0u4DCs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60245/devtools/browser/e65bbb63-2af3-4dac-9bf6-54498f23b15b
+Port.onMessage event fired while context is inactive.
+1667727354149	Marionette	INFO	Stopped listening on port 60258
+1667727533298	geckodriver	INFO	Listening on 127.0.0.1:60551
+1667727536363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilewIvuF6"
+1667727536614	Marionette	INFO	Marionette enabled
+1667727536618	Marionette	INFO	Listening on port 60565
+WebDriver BiDi listening on ws://127.0.0.1:60552
+Read port: 60565
+1667727536805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofilewIvuF6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60552/devtools/browser/7ef67f65-1473-46d3-84f2-f24f56cb9db1
+Port.onMessage event fired while context is inactive.
+1667727540763	Marionette	INFO	Stopped listening on port 60565
+1667727610993	geckodriver	INFO	Listening on 127.0.0.1:60746
+1667727614062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile4Hn0GR"
+1667727614312	Marionette	INFO	Marionette enabled
+1667727614316	Marionette	INFO	Listening on port 60761
+WebDriver BiDi listening on ws://127.0.0.1:60747
+Read port: 60761
+1667727614501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile4Hn0GR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60747/devtools/browser/dc17cf91-30e4-492b-a057-93ebe2195e16
+1667727619727	Marionette	INFO	Stopped listening on port 60761
+1667728091140	geckodriver	INFO	Listening on 127.0.0.1:61330
+1667728094222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile4l8cb0"
+1667728094485	Marionette	INFO	Marionette enabled
+1667728094489	Marionette	INFO	Listening on port 61344
+WebDriver BiDi listening on ws://127.0.0.1:61331
+Read port: 61344
+1667728094671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ttrev\\AppData\\Local\\Temp\\rust_mozprofile4l8cb0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61331/devtools/browser/741f1e0e-2c3c-453f-b3d1-15f6245fd8cc
+Port.onMessage event fired while context is inactive.
+1667728098581	Marionette	INFO	Stopped listening on port 61344

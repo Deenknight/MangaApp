@@ -25,7 +25,7 @@ def openUrl(url):
     adblockPath = path+"\\ublock_origin-1.44.4.xpi" 
 
     #FIXME change to fit your path manually :(
-    driver.install_addon(r'C:\Users\Deenk\source\repos\Python\HackEdBeta\MangaApp\WebScraper\ublock_origin-1.44.4.xpi')
+    driver.install_addon(adblockPath)
     #driver.install_addon(r"Python/Comic Reader/adblock.xpi", temporary=True)
 
     # load the site

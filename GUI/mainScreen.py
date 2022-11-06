@@ -4,9 +4,9 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import * 
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import QPixmap, QFont
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QDialog, QLabel
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QDialog, QLabel, QComboBox
 import os
-
+import scrollableLabel
 
 
 # Main Menu window 
@@ -52,14 +52,24 @@ class downloadWindow(QDialog):
         self.label.setGeometry(50, 75, 200, 274)
 
         self.title = QLabel("Youkoso Jitsuryoku Shijou Shugi No Kyoushitsu E",self)
+        self.title.setWordWrap(True)
         self.title.move(265, 75)
         self.title.setFont(QFont('Arial', 15))
-        
-        
 
+        self.combo_box()
 
         #function call to bring the user back to the main menu
         back2_main.clicked.connect(self.from_download_screen)
+
+        
+
+    def combo_box(self):
+        self.combobox = QComboBox(self)
+        self.combobox.addItems(['poop', 'cum', 'shit', 'fart'])
+        self.combobox.move(265, 180)
+        self.combobox.resize(100, 20)
+        
+
 
     # Decrements the current widget index by 1, taking the user to the main menu
     def from_download_screen(self):
