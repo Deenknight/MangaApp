@@ -24,7 +24,7 @@ def findChapters(linkOpen):
             chapterDict[titleTag[titleTag.find('Chapter'):]] = link
     '''
     YES I KNOW THAT 2 FOR LOOPS IS REALLY STUPID BUT FOR SOME REASON 
-    DOING IT THIS WAY IS FASTER, WHY? FUCK YOU
+    DOING IT THIS WAY IS FASTER, WHY?
     '''
     return chapterDict
 
