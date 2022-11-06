@@ -1,10 +1,10 @@
 
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
-
-from selenium.webdriver.common.keys import Keys 
+from selenium.webdriver.common.by import By 
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+
 
 from selenium.webdriver.common.action_chains import ActionChains
 import os
@@ -21,22 +21,38 @@ def openUrl(url):
     option.headless = False
     driver = webdriver.Firefox(options=option, service=Service(path + "\geckodriver.exe")) # make firefox browser
     
-    #FIXME make it so the path is in the r'' format
     adblockPath = path+"\\ublock_origin-1.44.4.xpi" 
+    driver.install_addon(adblockPath)
 
-    #FIXME change to fit your path manually :(
-    driver.install_addon(r'C:\Users\Deenk\source\repos\Python\HackEdBeta\MangaApp\WebScraper\ublock_origin-1.44.4.xpi')
-    #driver.install_addon(r"Python/Comic Reader/adblock.xpi", temporary=True)
 
     # load the site
     driver.get(url)
 
+    # remove the two popups
+    removePopups(driver)
+
     # custom save screenshots
-    save_screenshot(driver=driver, path=path+"\\manga\\img")
+    save_screenshot(driver=driver, path=path+"\\manga\\")
 
     # close browser
     print("done")
     driver.close()
+
+def removePopups(driver: webdriver.Firefox):
+    # remove the cookies tab at the bottom
+    driver.execute_script("acceptCookies()")
+
+    # remove the google thingy that took me 3 hours to implement
+    body = driver.find_element(By.XPATH, "/html/body")
+    action = ActionChains(driver)
+    action.move_to_element_with_offset(body, 591, -288)
+    action.click()
+    action.perform()
+
+
+
+    
+
 
 def save_screenshot(driver: webdriver.Firefox, path: str = '/tmp/screenshot.png'):
     
@@ -61,7 +77,7 @@ def save_screenshot(driver: webdriver.Firefox, path: str = '/tmp/screenshot.png'
     scrollHeight = 0
     delay = 0.5
 
-    #TODO fix dogshit code:
+    
     while True:
         
         scrollHeight = scrollIncrement*multiplier
